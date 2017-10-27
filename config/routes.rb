@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :ascensions
+  resources :summits
+  resources :names
+  resources :climbers
   root 'welcome#index'
   resources :users do
     collection do

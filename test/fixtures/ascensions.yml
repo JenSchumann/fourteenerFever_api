@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  climbers: one
+  summits: one
+  comments: MyString
+  likes: 1
+
+two:
+  climbers: two
+  summits: two
+  comments: MyString
+  likes: 1
