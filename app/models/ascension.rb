@@ -1,4 +1,4 @@
 class Ascension < ApplicationRecord
-  belongs_to :climbers
-  belongs_to :summits
+  belongs_to :climber
+  belongs_to :summit
 end

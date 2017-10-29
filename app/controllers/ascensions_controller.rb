@@ -18,7 +18,7 @@ class AscensionsController < ApplicationController
     @ascension = Ascension.new(ascension_params)
 
     if @ascension.save
-      render json: @ascension, status: :created
+      render json: @ascension, status: :created, location: @ascension
     else
       render json: @ascension.errors, status: :unprocessable_entity
     end
@@ -46,6 +46,6 @@ class AscensionsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def ascension_params
-      params.require(:ascension).permit(:climbers_id, :summits_id, :comments, :likes)
+      params.require(:ascension).permit(:climber_id, :summit_id, :comments, :likes)
     end
 end

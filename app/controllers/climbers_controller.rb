@@ -18,7 +18,7 @@ class ClimbersController < ApplicationController
     @climber = Climber.new(climber_params)
 
     if @climber.save
-      render json: @climber, status: :created
+      render json: @climber.to_json, status: :created, location: @climber
     else
       render json: @climber.errors, status: :unprocessable_entity
     end
@@ -26,6 +26,7 @@ class ClimbersController < ApplicationController
 
   # PATCH/PUT /climbers/1
   def update
+    @climber = Climber.find(params[:id])
     if @climber.update(climber_params)
       render json: @climber
     else

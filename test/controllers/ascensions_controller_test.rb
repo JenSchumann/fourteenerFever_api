@@ -12,7 +12,7 @@ class AscensionsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create ascension" do
     assert_difference('Ascension.count') do
-      post ascensions_url, params: { ascension: { climbers_id: @ascension.climbers_id, comments: @ascension.comments, likes: @ascension.likes, summits_id: @ascension.summits_id } }, as: :json
+      post ascensions_url, params: { ascension: { climber_id: @ascension.climber_id, comments: @ascension.comments, likes: @ascension.likes, summit_id: @ascension.summit_id } }, as: :json
     end
 
     assert_response 201
@@ -24,7 +24,7 @@ class AscensionsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update ascension" do
-    patch ascension_url(@ascension), params: { ascension: { climbers_id: @ascension.climbers_id, comments: @ascension.comments, likes: @ascension.likes, summits_id: @ascension.summits_id } }, as: :json
+    patch ascension_url(@ascension), params: { ascension: { climber_id: @ascension.climber_id, comments: @ascension.comments, likes: @ascension.likes, summit_id: @ascension.summit_id } }, as: :json
     assert_response 200
   end
 
