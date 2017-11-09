@@ -10,7 +10,6 @@ Climber.create([
   { name: 'Spencer', img: 'https://i.imgur.com/wXT1PRc.jpg', about: 'Fisherman, craft beer enthusiast, and middle school science teacher', level: 'beginner' },
   { name: 'Lela', img: 'https://i.imgur.com/I3tuRl7.jpg', about: 'School psychologist, outdoor enthusiast, and rock climber', level: 'intermediate' },
   { name: 'Danielle', img: 'https://i.imgur.com/PLfy0vf.jpg', about: '2nd grade teacher with no teacher desk, fitness fanatic, and gifted-talented specialist', level: 'beginner' },
-  { name: 'Brad', img: 'https://i.imgur.com/p4YBfPn.jpg', about: 'travel junkie, guitar player, rock climber, seminary scholar', level: 'intermediate' },
   { name: 'Brad', img: 'https://i.imgur.com/p4YBfPn.jpg', about: 'travel junkie, guitar player, rock climber, seminary scholar', level: 'intermediate' }
   ])
 
@@ -21,7 +20,7 @@ Summit.create([
 
   { name: 'Mt. Evans Peak', description: 'Front Range peak. Famous for its toppling mountain view from Denver.  Access it by traveling the driving on the Mount Evans Scenic Byway, the highest paved highway in North America. If interested in a shorter 14eener summit hike, the shortest hike to this summit can be done in about a 1/4 mile.  Noted as one of the top five beginner 14eener mountains to climb in CO.  There are some Class 2 and 3 routes for hiking enthusiasts.', difficulty: 1, img: 'https://i.imgur.com/tlMuZsK.jpg' , location: 'Mount Evans is located in the Mount Evans Wilderness, which is 13.4 miles southwest by south of Idaho Springs in Clear County.  It is situated between the drainage divide between Arapaho National Forest and Pike National Forest.'},
 
-  { name: 'Longs Peak', description: 'Northern Front Range and the only fourteener in Rocky Mountain Park. The easiest and most popular hike to the summit is through the Casual Route.  It is considered to be the most difficult Class 3 fourteener in CO. The hike begins at an elevation of 9,400 ft and the summit is reached at 14,255 feet.  Mills Glacier exists still at approximately 12,800 feet, above Chasm Creek.', difficulty: 3, img: 'https://i.imgur.com/W7vHFQw.jpg', location: 'Longs Peak is located in the Rocky Mountain National Park 9.6 miles southwest by south of Estes Park in Boulder County.'},
+  { name: 'Longs Peak', description: 'Northern Front Range peak and the only fourteener in Rocky Mountain Park. The easiest and most popular hike to the summit is through the Casual Route.  It is considered to be the most difficult Class 3 fourteener in CO. The hike begins at an elevation of 9,400 ft and the summit is reached at 14,255 feet.  Mills Glacier exists still at approximately 12,800 feet, above Chasm Creek.', difficulty: 3, img: 'https://i.imgur.com/W7vHFQw.jpg', location: 'Longs Peak is located in the Rocky Mountain National Park 9.6 miles southwest by south of Estes Park in Boulder County.'},
   ])
 
 
