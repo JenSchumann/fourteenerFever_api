@@ -47,6 +47,6 @@ class ClimbersController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def climber_params
-      params.require(:climber).permit(:name, :img, :about, :level)
+      params.require(:climber).permit(:user_id, :summit_id, :climber_id, :ascensions, :name, :img, :about, :level)
     end
 end

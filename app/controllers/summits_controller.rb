@@ -11,6 +11,7 @@ class SummitsController < ApplicationController
   # GET /summits/1
   def show
     render json: @summit.to_json(include: :climbers)
+    # .to_json(include: :climbers)
   end
 
   # POST /summits
@@ -46,6 +47,6 @@ class SummitsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def summit_params
-      params.require(:summit).permit(:name, :description, :difficulty, :img, :location)
+      params.require(:summit).permit(:user_id, :summit_id, :climber_id, :ascensions, :name, :description, :difficulty, :img, :location)
     end
 end
