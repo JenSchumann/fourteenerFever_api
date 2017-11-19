@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171029211825) do
+ActiveRecord::Schema.define(version: 20171119220353) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,8 +22,10 @@ ActiveRecord::Schema.define(version: 20171029211825) do
     t.integer "likes"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "users_id"
     t.index ["climber_id"], name: "index_ascensions_on_climber_id"
     t.index ["summit_id"], name: "index_ascensions_on_summit_id"
+    t.index ["users_id"], name: "index_ascensions_on_users_id"
   end
 
   create_table "climbers", force: :cascade do |t|
@@ -54,4 +56,5 @@ ActiveRecord::Schema.define(version: 20171029211825) do
 
   add_foreign_key "ascensions", "climbers"
   add_foreign_key "ascensions", "summits"
+  add_foreign_key "ascensions", "users", column: "users_id"
 end
