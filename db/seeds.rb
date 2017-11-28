@@ -22,15 +22,19 @@ Summit.create([
 
   { name: 'Longs Peak', description: 'Northern Front Range peak and the only fourteener in Rocky Mountain Park. The easiest and most popular hike to the summit is through the Casual Route.  It is considered to be the most difficult Class 3 fourteener in CO. The hike begins at an elevation of 9,400 ft and the summit is reached at 14,255 feet.  Mills Glacier exists still at approximately 12,800 feet, above Chasm Creek.', difficulty: 3, img: 'https://i.imgur.com/W7vHFQw.jpg', location: 'Longs Peak is located in the Rocky Mountain National Park 9.6 miles southwest by south of Estes Park in Boulder County.'},
 
-  { name: 'Pikes Peak', description: 'Need to update this seed data', difficulty: 1, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
+  { name: 'Pikes Peak', description: 'Need to update this seed data', difficulty: 2, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
 
-  { name: 'Mt. Bierstadt', description: 'Need to update this seed data', difficulty: 1, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
+  { name: 'Mt. Bierstadt', description: 'Need to update this seed data', difficulty: 3, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
 
-  { name: 'Quandary Peak', description: 'Need to update this seed data', difficulty: 1, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
+  { name: 'Quandary Peak', description: 'The East Ridge route is a Class 1 climb.  There are 3 other routes which are more difficult.', difficulty: 1, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
 
-  { name: 'Mt. Lincoln', description: 'Need to update this seed data', difficulty: 1, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
+  { name: 'Mt. Lincoln', description: 'Need to update this seed data', difficulty: 2, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
 
-  { name: 'Mt. Cameron', description: 'Need to update this seed data', difficulty: 1, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
+  { name: 'Mt. Cameron', description: 'Need to update this seed data', difficulty: 2, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
+
+
+
+
 
   { name: 'Mt. Bross', description: 'Need to update this seed data', difficulty: 1, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
 
