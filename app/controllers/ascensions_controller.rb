@@ -46,6 +46,6 @@ class AscensionsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def ascension_params
-      params.require(:ascension).permit(:climber_id, :summit_id, :comments, :likes)
+      params.require(:ascension).permit(:climber_id, :summit_id, :users_id, :comments, :likes)
     end
 end
