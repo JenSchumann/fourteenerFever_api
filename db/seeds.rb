@@ -32,19 +32,18 @@ Summit.create([
 
   { name: 'Mt. Cameron', description: 'Need to update this seed data', difficulty: 2, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
 
+  { name: 'Mt. Bross', description: 'Need to update this seed data', difficulty: 2, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
+
+  { name: 'Mt. Democrat', description: 'Need to update this seed data', difficulty: 2, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
+
+  { name: 'Mt. Sherman', description: 'Need to update this seed data', difficulty: 2, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
+
+  { name: 'Mt. Elbert', description: 'Need to update this seed data', difficulty: 2, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
+
+  { name: 'Mt. Massive', description: 'Need to update this seed data', difficulty: 2, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
 
 
-
-
-  { name: 'Mt. Bross', description: 'Need to update this seed data', difficulty: 1, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
-
-  { name: 'Mt. Democrat', description: 'Need to update this seed data', difficulty: 1, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
-
-  { name: 'Mt. Sherman', description: 'Need to update this seed data', difficulty: 1, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
-
-  { name: 'Mt. Elbert', description: 'Need to update this seed data', difficulty: 1, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
-
-  { name: 'Mt. Massive', description: 'Need to update this seed data', difficulty: 1, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
+  
 
   { name: 'Mt. Harvard', description: 'Need to update this seed data', difficulty: 1, img: 'https://i.imgur.com/9GFAvTi.jpg', location: 'Location will be updated.'},
 
