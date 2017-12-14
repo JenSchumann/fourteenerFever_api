@@ -5,12 +5,12 @@ class AscensionsController < ApplicationController
   def index
     @ascensions = Ascension.all
 
-    render json: @ascensions.to_json(include: [:climber, :summit])
+    render json: @ascensions.to_json(include: [:climber, :summit, :user])
   end
 
   # GET /ascensions/1
   def show
-    render json: @ascension.to_json(include: [:climber, :summit])
+    render json: @ascension.to_json(include: [:climber, :summit, :user])
   end
 
   # POST /ascensions
